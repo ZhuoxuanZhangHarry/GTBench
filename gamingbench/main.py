@@ -9,7 +9,7 @@ import json
 
 games = ['tictactoe', 'connect4', 'texasholdem', 'neuron_poker', 'backgammon', 'breakthrough',
          'first_sealed_auction', 'gin_rummy', 'liars_dice', 'negotiation', 'nim', 'pig', 'kuhn_poker',
-         'prisoners_dilemma']
+         'prisoners_dilemma', 'dots_and_boxes']
 
 
 def get_args():
@@ -65,6 +65,8 @@ def run_game(game_name):
 
     # initialize env and game
     game_env = BaseGameEnv()
+    print(os.path.join(
+        args.game_config_root, f'{game_name}.yaml'))
     game = utils.load_game(os.path.join(
         args.game_config_root, f'{game_name}.yaml'))
     game_env.save_game_config(utils.load_config(
