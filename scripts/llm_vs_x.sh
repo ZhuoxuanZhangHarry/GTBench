@@ -1,9 +1,9 @@
 seed=0
 output_root="./experiments"
 exp_name='test'
-num_matches=50 # number of matches
-num_workers=20 # run 20 matches in parallel
-threshold_matches=100 # maximum number of matches, stop criteria for low completion rate, e.g., LLM agents always generate illegal actions.
+num_matches=1 # number of matches
+num_workers=1 # run 20 matches in parallel
+threshold_matches=3 # maximum number of matches, stop criteria for low completion rate, e.g., LLM agents always generate illegal actions.
 # suports all the games listed in ./gamingbench/configs/game_configs/*.yaml
 game_name='dots_and_boxes'
 # supports all the llms defined in ./gamingbench/configs/model_configs/*.yaml
