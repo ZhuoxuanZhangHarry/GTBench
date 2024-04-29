@@ -9,6 +9,7 @@ from gamingbench.prompts.system_prompts import nim
 from gamingbench.prompts.system_prompts import pig
 from gamingbench.prompts.system_prompts import kuhn_poker
 from gamingbench.prompts.system_prompts import prisoners_dilemma
+from gamingbench.prompts.system_prompts import dots_and_boxes
 
 
 # maps
@@ -22,7 +23,8 @@ mapping = {
     'nim': nim,
     'pig': pig,
     'kuhn_poker': kuhn_poker,
-    'python_iterated_prisoners_dilemma': prisoners_dilemma
+    'python_iterated_prisoners_dilemma': prisoners_dilemma,
+    'dots_and_boxes': dots_and_boxes
 }
 
 

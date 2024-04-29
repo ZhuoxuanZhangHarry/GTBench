@@ -8,3 +8,4 @@ from gamingbench.games.nim import Nim
 from gamingbench.games.pig import Pig
 from gamingbench.games.kuhn_poker import KuhnPoker
 from gamingbench.games.prisoners_dilemma import PrisonersDilemma
+from gamingbench.games.dots_and_boxes import DotsAndBoxes
