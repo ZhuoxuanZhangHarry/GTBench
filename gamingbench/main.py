@@ -9,7 +9,7 @@ import json
 
 games = ['tictactoe', 'connect4', 'texasholdem', 'neuron_poker', 'backgammon', 'breakthrough',
          'first_sealed_auction', 'gin_rummy', 'liars_dice', 'negotiation', 'nim', 'pig', 'kuhn_poker',
-         'prisoners_dilemma', 'dots_and_boxes']
+         'prisoners_dilemma', 'dots_and_boxes', 'crazy_eights']
 
 
 def get_args():
